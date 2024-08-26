@@ -15,7 +15,7 @@ function DashCard({ title, description, chartComponent, customHeight }) {
 
   return (
     <>
-      <div className={`bg-white p-1 rounded-lg shadow-md ${customHeight}`}>
+      <div className={`bg-white p-2 rounded-lg shadow-md ${customHeight} mt-2`}>
         <div className="flex justify-between items-center">
           <div>
             <h2 className="text-xl font-bold text-black">{title}</h2>
