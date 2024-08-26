@@ -46,6 +46,7 @@ const PieChart = () => {
           },
           legend: {
             position: "bottom",
+            color: "blue",
           },
         },
       },
