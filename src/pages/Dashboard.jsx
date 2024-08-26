@@ -38,13 +38,13 @@ function Dashboard() {
       </div>
 
       <div className="md:col-span-1 grid grid-rows-2 gap-4">
-        {/* <DashCard
+        <DashCard
           title="Line Chart"
           description="Sales data over time."
           chartComponent={<LineChart />}
           onReload={reloadLineChart}
           customHeight="h-[520px]"
-        /> */}
+        />
         <DashCard
           title="Pie Chart"
           description="Distribution of data."
