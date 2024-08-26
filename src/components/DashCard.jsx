@@ -1,9 +1,15 @@
 import React from "react";
 
-function DashCard({ title, description, chartComponent, onReload }) {
+function DashCard({
+  title,
+  description,
+  chartComponent,
+  onReload,
+  customHeight,
+}) {
   return (
     <>
-      <div className="bg-white p-4 rounded-lg shadow-md">
+      <div className={`bg-white p-1 rounded-lg shadow-md ${customHeight}`}>
         <div className="flex justify-between items-center">
           <div>
             <h2 className="text-xl font-bold">{title}</h2>

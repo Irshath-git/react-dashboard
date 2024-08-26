@@ -5,7 +5,7 @@ import ReactApexChart from "react-apexcharts";
 
 const fetchPieChartData = async () => {
   const { data } = await axios.get(
-    "https://thingproxy.freeboard.io/fetch/https://mock-react-dashboard-api.alphaos.workers.dev/chart/pie"
+    "https://mock-react-dashboard-api.alphaos.workers.dev/chart/pie"
   );
   console.log(data);
 
